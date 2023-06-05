@@ -39,13 +39,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -217,6 +217,11 @@
 				{
 					"backtrace" : 18,
 					"isSystem" : true,
+					"path" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/include"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
 					"path" : "/opt/ros/foxy/include"
 				}
 			],
@@ -245,7 +250,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/opt/ros/foxy/lib",
+				"fragment" : "-Wl,-rpath,/opt/ros/foxy/lib:/home/yc/ros/MMW/install/mmw_msgs_ros2/lib",
 				"role" : "libraries"
 			},
 			{
@@ -291,6 +296,26 @@
 			{
 				"backtrace" : 3,
 				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -498,6 +523,11 @@
 			{
 				"backtrace" : 3,
 				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{

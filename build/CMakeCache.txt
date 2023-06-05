@@ -544,7 +544,7 @@ USB_10_LIBRARY:FILEPATH=USB_10_LIBRARY-NOTFOUND
 VTK_DIR:PATH=/usr/lib/cmake/vtk-7.1
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake/cmake
@@ -626,6 +626,9 @@ libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cma
 
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
+
+//The directory containing a CMake configuration file for mmw_msgs_ros2.
+mmw_msgs_ros2_DIR:PATH=/home/yc/ros/MMW/install/mmw_msgs_ros2/share/mmw_msgs_ros2/cmake
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/foxy/share/nav_msgs/cmake

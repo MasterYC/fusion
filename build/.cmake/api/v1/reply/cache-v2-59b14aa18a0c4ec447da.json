@@ -5483,7 +5483,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so"
+			"value" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_fastrtps_cpp.so"
 		},
 		{
 			"name" : "ament_cmake_DIR",
@@ -5808,6 +5808,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/foxy/share/libyaml_vendor/cmake"
+		},
+		{
+			"name" : "mmw_msgs_ros2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for mmw_msgs_ros2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/yc/ros/MMW/install/mmw_msgs_ros2/share/mmw_msgs_ros2/cmake"
 		},
 		{
 			"name" : "nav_msgs_DIR",

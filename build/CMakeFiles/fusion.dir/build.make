@@ -148,6 +148,10 @@ fusion: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 fusion: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
 fusion: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 fusion: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+fusion: /home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_introspection_c.so
+fusion: /home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_c.so
+fusion: /home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_introspection_cpp.so
+fusion: /home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_typesupport_cpp.so
 fusion: /usr/lib/x86_64-linux-gnu/libboost_system.so
 fusion: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 fusion: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
@@ -197,6 +201,7 @@ fusion: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
 fusion: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 fusion: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 fusion: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+fusion: /home/yc/ros/MMW/install/mmw_msgs_ros2/lib/libmmw_msgs_ros2__rosidl_generator_c.so
 fusion: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 fusion: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 fusion: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
