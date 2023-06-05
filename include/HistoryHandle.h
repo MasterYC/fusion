@@ -9,16 +9,18 @@ struct Position{
 class HistoryHandle{
 public:
 
-  HistoryHandle(boost::circular_buffer<Position>& p,geometry_msgs::msg::PoseStamped::SharedPtr pose_message);
+  HistoryHandle();
   ~HistoryHandle();
+  inline void setMessage(geometry_msgs::msg::PoseStamped::SharedPtr pose_message){pose_msg=pose_message;}
   void run();
   void LocalToGlobal(int8_t** _map);
   inline int8_t** getMap(){return map;}
 
 private:
-  boost::circular_buffer<Position>& history_position;
+  boost::circular_buffer<Position> history_position;
   geometry_msgs::msg::PoseStamped::SharedPtr pose_msg;
   int8_t** map;
 
+private:
   void GlobalToLocal();
 };

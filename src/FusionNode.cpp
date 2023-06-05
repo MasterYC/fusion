@@ -1,6 +1,6 @@
 #include "FusionNode.h"
 #include <thread>
-using namespace std::placeholders;
+
 FusionNode::FusionNode():rclcpp::Node{"fusion_node"},point_sub_msg{100},pose_sub_msg{100}{
   
   grid_pub_msg=std::make_shared<nav_msgs::msg::OccupancyGrid>();
@@ -20,8 +20,12 @@ FusionNode::FusionNode():rclcpp::Node{"fusion_node"},point_sub_msg{100},pose_sub
 }
 
 void FusionNode::run(){
-  point_sub=create_subscription<sensor_msgs::msg::PointCloud2>("/pre_point", 10, std::bind(&FusionNode::onPointSub,shared_from_this(),_1));
-  pose_sub=create_subscription<geometry_msgs::msg::PoseStamped>("/pose", 10,std::bind(&FusionNode::onPoseSub,shared_from_this(),_1));
+
+
+  point_sub=create_subscription<sensor_msgs::msg::PointCloud2>("/pre_point", 10, std::bind(&FusionNode::onPointSub,shared_from_this(),std::placeholders::_1));
+  pose_sub=create_subscription<geometry_msgs::msg::PoseStamped>("/pose", 10,std::bind(&FusionNode::onPoseSub,shared_from_this(),std::placeholders::_1));
+  mmw_sub=create_subscription<mmw_msgs_ros2::msg::MmwStatus>("/mmw", 10,std::bind(&FusionNode::onMmwSub,shared_from_this(),std::placeholders::_1));
+
   grid_pub=create_publisher<nav_msgs::msg::OccupancyGrid>("/gridMap", 10);
   timer=create_wall_timer(std::chrono::milliseconds{50}, std::bind(&FusionNode::onTime,shared_from_this()));
   std::thread t{&FusionNode::runFusion,shared_from_this()};
@@ -35,10 +39,13 @@ void FusionNode::onTime(){
 void FusionNode::onPointSub(sensor_msgs::msg::PointCloud2::SharedPtr point_message){
   point_sub_msg.push_back(point_message);
 }
-  
-  
+   
 void FusionNode::onPoseSub(geometry_msgs::msg::PoseStamped::SharedPtr pose_message){
   pose_sub_msg.push_back(pose_message);
+}
+
+void FusionNode::onMmwSub(mmw_msgs_ros2::msg::MmwStatus::SharedPtr mmw_message){
+  mmw_msg.push_back(mmw_message);
 }
 
 void FusionNode::runFusion(){
@@ -53,6 +60,3 @@ void FusionNode::runFusion(){
 }
 
 
-std::shared_ptr<FusionNode> FusionNode::shared_from_this(){
-  return std::static_pointer_cast<FusionNode>(rclcpp::Node::shared_from_this());
-}

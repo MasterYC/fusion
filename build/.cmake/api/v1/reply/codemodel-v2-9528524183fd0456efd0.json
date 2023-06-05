@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -42,21 +42,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fusion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fusion-Debug-9443d7b74d52072f383b.json",
+					"jsonFile" : "target-fusion-Release-81613d00a429370d8899.json",
 					"name" : "fusion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "fusion_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fusion_uninstall-Debug-8c582a2f5915bd10ba16.json",
+					"jsonFile" : "target-fusion_uninstall-Release-3b535e3f2b20d138871e.json",
 					"name" : "fusion_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-Debug-35e85c4c8b34bbae83e5.json",
+					"jsonFile" : "target-uninstall-Release-e9e3b36f9221b982c679.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}

@@ -1,9 +1,12 @@
 #include "HistoryHandle.h"
 #include "Define.h"
 #include <cstring>
-HistoryHandle::HistoryHandle(boost::circular_buffer<Position>& p,geometry_msgs::msg::PoseStamped::SharedPtr pose_message)
-:history_position{p},pose_msg{pose_message}{
-
+HistoryHandle::HistoryHandle()
+:history_position{1000}{
+  map=new int8_t*[height];
+  for(int i=0;i<height;++i){
+    map[i]=new int8_t[width];
+  }
 }
 
 HistoryHandle::~HistoryHandle(){
@@ -12,10 +15,10 @@ HistoryHandle::~HistoryHandle(){
   delete [] map;
 }
 
+
+
 void HistoryHandle::run(){
-  map=new int8_t*[height];
   for(int i=0;i<height;++i){
-    map[i]=new int8_t[width];
     memset(map[i], 0, width*sizeof(int8_t));
   }
   GlobalToLocal();

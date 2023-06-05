@@ -60,67 +60,80 @@ include CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/FusionNode.cpp.o: CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/FusionNode.cpp.o: ../src/FusionNode.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fusion.dir/src/FusionNode.cpp.o"
-	/usr/bin/clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/FusionNode.cpp.o -c /home/yc/ros/fusion/src/FusionNode.cpp
+	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/FusionNode.cpp.o -c /home/yc/ros/fusion/src/FusionNode.cpp
 
 CMakeFiles/fusion.dir/src/FusionNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/FusionNode.cpp.i"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/FusionNode.cpp > CMakeFiles/fusion.dir/src/FusionNode.cpp.i
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/FusionNode.cpp > CMakeFiles/fusion.dir/src/FusionNode.cpp.i
 
 CMakeFiles/fusion.dir/src/FusionNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/FusionNode.cpp.s"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/FusionNode.cpp -o CMakeFiles/fusion.dir/src/FusionNode.cpp.s
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/FusionNode.cpp -o CMakeFiles/fusion.dir/src/FusionNode.cpp.s
 
 CMakeFiles/fusion.dir/src/GridFusion.cpp.o: CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/GridFusion.cpp.o: ../src/GridFusion.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fusion.dir/src/GridFusion.cpp.o"
-	/usr/bin/clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/GridFusion.cpp.o -c /home/yc/ros/fusion/src/GridFusion.cpp
+	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/GridFusion.cpp.o -c /home/yc/ros/fusion/src/GridFusion.cpp
 
 CMakeFiles/fusion.dir/src/GridFusion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/GridFusion.cpp.i"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/GridFusion.cpp > CMakeFiles/fusion.dir/src/GridFusion.cpp.i
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/GridFusion.cpp > CMakeFiles/fusion.dir/src/GridFusion.cpp.i
 
 CMakeFiles/fusion.dir/src/GridFusion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/GridFusion.cpp.s"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/GridFusion.cpp -o CMakeFiles/fusion.dir/src/GridFusion.cpp.s
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/GridFusion.cpp -o CMakeFiles/fusion.dir/src/GridFusion.cpp.s
 
 CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o: CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o: ../src/HistoryHandle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o"
-	/usr/bin/clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o -c /home/yc/ros/fusion/src/HistoryHandle.cpp
+	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o -c /home/yc/ros/fusion/src/HistoryHandle.cpp
 
 CMakeFiles/fusion.dir/src/HistoryHandle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/HistoryHandle.cpp.i"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/HistoryHandle.cpp > CMakeFiles/fusion.dir/src/HistoryHandle.cpp.i
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/HistoryHandle.cpp > CMakeFiles/fusion.dir/src/HistoryHandle.cpp.i
 
 CMakeFiles/fusion.dir/src/HistoryHandle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/HistoryHandle.cpp.s"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/HistoryHandle.cpp -o CMakeFiles/fusion.dir/src/HistoryHandle.cpp.s
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/HistoryHandle.cpp -o CMakeFiles/fusion.dir/src/HistoryHandle.cpp.s
 
 CMakeFiles/fusion.dir/src/Main.cpp.o: CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/Main.cpp.o: ../src/Main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fusion.dir/src/Main.cpp.o"
-	/usr/bin/clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/Main.cpp.o -c /home/yc/ros/fusion/src/Main.cpp
+	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/Main.cpp.o -c /home/yc/ros/fusion/src/Main.cpp
 
 CMakeFiles/fusion.dir/src/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/Main.cpp.i"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/Main.cpp > CMakeFiles/fusion.dir/src/Main.cpp.i
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/Main.cpp > CMakeFiles/fusion.dir/src/Main.cpp.i
 
 CMakeFiles/fusion.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/Main.cpp.s"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/Main.cpp -o CMakeFiles/fusion.dir/src/Main.cpp.s
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/Main.cpp -o CMakeFiles/fusion.dir/src/Main.cpp.s
+
+CMakeFiles/fusion.dir/src/MmwHandle.cpp.o: CMakeFiles/fusion.dir/flags.make
+CMakeFiles/fusion.dir/src/MmwHandle.cpp.o: ../src/MmwHandle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fusion.dir/src/MmwHandle.cpp.o"
+	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/MmwHandle.cpp.o -c /home/yc/ros/fusion/src/MmwHandle.cpp
+
+CMakeFiles/fusion.dir/src/MmwHandle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/MmwHandle.cpp.i"
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/MmwHandle.cpp > CMakeFiles/fusion.dir/src/MmwHandle.cpp.i
+
+CMakeFiles/fusion.dir/src/MmwHandle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/MmwHandle.cpp.s"
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/MmwHandle.cpp -o CMakeFiles/fusion.dir/src/MmwHandle.cpp.s
 
 CMakeFiles/fusion.dir/src/PointHandle.cpp.o: CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/PointHandle.cpp.o: ../src/PointHandle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fusion.dir/src/PointHandle.cpp.o"
-	/usr/bin/clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/PointHandle.cpp.o -c /home/yc/ros/fusion/src/PointHandle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fusion.dir/src/PointHandle.cpp.o"
+	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/PointHandle.cpp.o -c /home/yc/ros/fusion/src/PointHandle.cpp
 
 CMakeFiles/fusion.dir/src/PointHandle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/PointHandle.cpp.i"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/PointHandle.cpp > CMakeFiles/fusion.dir/src/PointHandle.cpp.i
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/PointHandle.cpp > CMakeFiles/fusion.dir/src/PointHandle.cpp.i
 
 CMakeFiles/fusion.dir/src/PointHandle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/PointHandle.cpp.s"
-	/usr/bin/clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/PointHandle.cpp -o CMakeFiles/fusion.dir/src/PointHandle.cpp.s
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/PointHandle.cpp -o CMakeFiles/fusion.dir/src/PointHandle.cpp.s
 
 # Object files for target fusion
 fusion_OBJECTS = \
@@ -128,6 +141,7 @@ fusion_OBJECTS = \
 "CMakeFiles/fusion.dir/src/GridFusion.cpp.o" \
 "CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o" \
 "CMakeFiles/fusion.dir/src/Main.cpp.o" \
+"CMakeFiles/fusion.dir/src/MmwHandle.cpp.o" \
 "CMakeFiles/fusion.dir/src/PointHandle.cpp.o"
 
 # External object files for target fusion
@@ -137,6 +151,7 @@ fusion: CMakeFiles/fusion.dir/src/FusionNode.cpp.o
 fusion: CMakeFiles/fusion.dir/src/GridFusion.cpp.o
 fusion: CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o
 fusion: CMakeFiles/fusion.dir/src/Main.cpp.o
+fusion: CMakeFiles/fusion.dir/src/MmwHandle.cpp.o
 fusion: CMakeFiles/fusion.dir/src/PointHandle.cpp.o
 fusion: CMakeFiles/fusion.dir/build.make
 fusion: /opt/ros/foxy/lib/librclcpp.so
@@ -220,7 +235,7 @@ fusion: /opt/ros/foxy/lib/librcpputils.so
 fusion: /opt/ros/foxy/lib/librosidl_runtime_c.so
 fusion: /opt/ros/foxy/lib/librcutils.so
 fusion: CMakeFiles/fusion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable fusion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable fusion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fusion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
 project(fusion)
 
+set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_C_COMPILER "clang-12")
+set(CMAKE_CXX_COMPILER "clang++-12")
+
 find_package(rclcpp REQUIRED)
 find_package(PCL REQUIRED)
 find_package(geometry_msgs REQUIRED)

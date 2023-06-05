@@ -268,6 +268,33 @@ src/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/MmwHandle.o: src/MmwHandle.cpp.o
+
+.PHONY : src/MmwHandle.o
+
+# target to build an object file
+src/MmwHandle.cpp.o:
+	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/MmwHandle.cpp.o
+.PHONY : src/MmwHandle.cpp.o
+
+src/MmwHandle.i: src/MmwHandle.cpp.i
+
+.PHONY : src/MmwHandle.i
+
+# target to preprocess a source file
+src/MmwHandle.cpp.i:
+	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/MmwHandle.cpp.i
+.PHONY : src/MmwHandle.cpp.i
+
+src/MmwHandle.s: src/MmwHandle.cpp.s
+
+.PHONY : src/MmwHandle.s
+
+# target to generate assembly for a file
+src/MmwHandle.cpp.s:
+	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/MmwHandle.cpp.s
+.PHONY : src/MmwHandle.cpp.s
+
 src/PointHandle.o: src/PointHandle.cpp.o
 
 .PHONY : src/PointHandle.o
@@ -319,6 +346,9 @@ help:
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
+	@echo "... src/MmwHandle.o"
+	@echo "... src/MmwHandle.i"
+	@echo "... src/MmwHandle.s"
 	@echo "... src/PointHandle.o"
 	@echo "... src/PointHandle.i"
 	@echo "... src/PointHandle.s"

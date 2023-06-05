@@ -2,21 +2,22 @@
 #include "Define.h"
 //#include <pcl/point_types.h>
 
-PointHandle::PointHandle(sensor_msgs::msg::PointCloud2::SharedPtr point_message,geometry_msgs::msg::PoseStamped::SharedPtr pose_messsage)
-:point_msg{point_message},pose_msg{pose_messsage}{
-
+PointHandle::PointHandle(){
+  map=new int8_t*[height];
+  for(int i=0;i<height;++i){
+    map[i]=new int8_t[width];
+  }
 }
 
 PointHandle::~PointHandle(){
-    for(int i=0;i<height;++i)
+  for(int i=0;i<height;++i)
     delete [] map[i];
   delete [] map;
 }
 
+
 void PointHandle::run(){
-  map=new int8_t*[height];
   for(int i=0;i<height;++i){
-    map[i]=new int8_t[width];
     memset(map[i], 0, width*sizeof(int8_t));
   }
   cloud=boost::make_shared<pcl::PointCloud<pcl::PointXYZ>>();
