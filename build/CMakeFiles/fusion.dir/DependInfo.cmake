@@ -33,6 +33,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/freetype2"
   "/usr/include/pcl-1.10"
   "/usr/include/eigen3"
+  "../include"
   "/home/yc/ros/MMW/install/mmw_msgs_ros2/include"
   "/opt/ros/foxy/include"
   )
