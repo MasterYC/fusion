@@ -122,6 +122,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+#=============================================================================
 # Target rules for targets named fusion
 
 # Build rule for target.
@@ -160,33 +173,6 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/FusionNode.o: src/FusionNode.cpp.o
-
-.PHONY : src/FusionNode.o
-
-# target to build an object file
-src/FusionNode.cpp.o:
-	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/FusionNode.cpp.o
-.PHONY : src/FusionNode.cpp.o
-
-src/FusionNode.i: src/FusionNode.cpp.i
-
-.PHONY : src/FusionNode.i
-
-# target to preprocess a source file
-src/FusionNode.cpp.i:
-	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/FusionNode.cpp.i
-.PHONY : src/FusionNode.cpp.i
-
-src/FusionNode.s: src/FusionNode.cpp.s
-
-.PHONY : src/FusionNode.s
-
-# target to generate assembly for a file
-src/FusionNode.cpp.s:
-	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/FusionNode.cpp.s
-.PHONY : src/FusionNode.cpp.s
-
 src/GridFusion.o: src/GridFusion.cpp.o
 
 .PHONY : src/GridFusion.o
@@ -213,6 +199,33 @@ src/GridFusion.s: src/GridFusion.cpp.s
 src/GridFusion.cpp.s:
 	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/GridFusion.cpp.s
 .PHONY : src/GridFusion.cpp.s
+
+src/GridNode.o: src/GridNode.cpp.o
+
+.PHONY : src/GridNode.o
+
+# target to build an object file
+src/GridNode.cpp.o:
+	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/GridNode.cpp.o
+.PHONY : src/GridNode.cpp.o
+
+src/GridNode.i: src/GridNode.cpp.i
+
+.PHONY : src/GridNode.i
+
+# target to preprocess a source file
+src/GridNode.cpp.i:
+	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/GridNode.cpp.i
+.PHONY : src/GridNode.cpp.i
+
+src/GridNode.s: src/GridNode.cpp.s
+
+.PHONY : src/GridNode.s
+
+# target to generate assembly for a file
+src/GridNode.cpp.s:
+	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/GridNode.cpp.s
+.PHONY : src/GridNode.cpp.s
 
 src/HistoryHandle.o: src/HistoryHandle.cpp.o
 
@@ -322,6 +335,33 @@ src/PointHandle.cpp.s:
 	$(MAKE) -f CMakeFiles/fusion.dir/build.make CMakeFiles/fusion.dir/src/PointHandle.cpp.s
 .PHONY : src/PointHandle.cpp.s
 
+tests/Main.o: tests/Main.cpp.o
+
+.PHONY : tests/Main.o
+
+# target to build an object file
+tests/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/Main.cpp.o
+.PHONY : tests/Main.cpp.o
+
+tests/Main.i: tests/Main.cpp.i
+
+.PHONY : tests/Main.i
+
+# target to preprocess a source file
+tests/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/Main.cpp.i
+.PHONY : tests/Main.cpp.i
+
+tests/Main.s: tests/Main.cpp.s
+
+.PHONY : tests/Main.s
+
+# target to generate assembly for a file
+tests/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/Main.cpp.s
+.PHONY : tests/Main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -331,15 +371,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... tests"
 	@echo "... fusion"
 	@echo "... fusion_uninstall"
 	@echo "... uninstall"
-	@echo "... src/FusionNode.o"
-	@echo "... src/FusionNode.i"
-	@echo "... src/FusionNode.s"
 	@echo "... src/GridFusion.o"
 	@echo "... src/GridFusion.i"
 	@echo "... src/GridFusion.s"
+	@echo "... src/GridNode.o"
+	@echo "... src/GridNode.i"
+	@echo "... src/GridNode.s"
 	@echo "... src/HistoryHandle.o"
 	@echo "... src/HistoryHandle.i"
 	@echo "... src/HistoryHandle.s"
@@ -352,6 +393,9 @@ help:
 	@echo "... src/PointHandle.o"
 	@echo "... src/PointHandle.i"
 	@echo "... src/PointHandle.s"
+	@echo "... tests/Main.o"
+	@echo "... tests/Main.i"
+	@echo "... tests/Main.s"
 .PHONY : help
 
 

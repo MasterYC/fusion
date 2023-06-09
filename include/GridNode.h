@@ -9,12 +9,12 @@
 
 
 
-class FusionNode:public rclcpp::Node{
+class GridNode:public rclcpp::Node{
 public:
-  FusionNode();
+  GridNode();
   void run();
 
-  inline std::shared_ptr<FusionNode> shared_from_this(){return std::static_pointer_cast<FusionNode>(rclcpp::Node::shared_from_this());}
+  inline std::shared_ptr<GridNode> shared_from_this(){return std::static_pointer_cast<GridNode>(rclcpp::Node::shared_from_this());}
 
 private:
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr grid_pub;

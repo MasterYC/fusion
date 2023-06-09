@@ -11,7 +11,7 @@ public:
 private:
   int8_t** map;
   mmw_msgs_ros2::msg::MmwStatus::SharedPtr mmw_msg;
-
+  
 private:
 
 };

@@ -17,6 +17,9 @@ MmwHandle::~MmwHandle(){
 
 
 void MmwHandle::run() {
-  
+  auto data_size=mmw_msg->data[0].target_info.size();
+  for(size_t i=0;i<data_size;++i){
+    
+  }
 }
 

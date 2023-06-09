@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fusion.dir/src/FusionNode.cpp.o"
   "CMakeFiles/fusion.dir/src/GridFusion.cpp.o"
+  "CMakeFiles/fusion.dir/src/GridNode.cpp.o"
   "CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o"
   "CMakeFiles/fusion.dir/src/Main.cpp.o"
   "CMakeFiles/fusion.dir/src/MmwHandle.cpp.o"

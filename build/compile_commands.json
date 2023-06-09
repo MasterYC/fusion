@@ -1,13 +1,18 @@
 [
 {
   "directory": "/home/yc/ros/fusion/build",
-  "command": "clang++-12  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DDISABLE_LIBUSB_1_0 -DDISABLE_OPENNI -DDISABLE_OPENNI2 -DDISABLE_PCAP -DDISABLE_PNG -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/home/yc/ros/fusion/include -isystem /opt/ros/foxy/include -isystem /home/yc/ros/MMW/install/mmw_msgs_ros2/include    -O3 -DNDEBUG   -o CMakeFiles/fusion.dir/src/FusionNode.cpp.o -c /home/yc/ros/fusion/src/FusionNode.cpp",
-  "file": "/home/yc/ros/fusion/src/FusionNode.cpp"
+  "command": "clang++-12  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DDISABLE_LIBUSB_1_0 -DDISABLE_OPENNI -DDISABLE_OPENNI2 -DDISABLE_PCAP -DDISABLE_PNG -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/home/yc/ros/fusion/include -isystem /opt/ros/foxy/include -isystem /home/yc/ros/MMW/install/mmw_msgs_ros2/include    -O3 -DNDEBUG   -o CMakeFiles/tests.dir/tests/Main.cpp.o -c /home/yc/ros/fusion/tests/Main.cpp",
+  "file": "/home/yc/ros/fusion/tests/Main.cpp"
 },
 {
   "directory": "/home/yc/ros/fusion/build",
   "command": "clang++-12  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DDISABLE_LIBUSB_1_0 -DDISABLE_OPENNI -DDISABLE_OPENNI2 -DDISABLE_PCAP -DDISABLE_PNG -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/home/yc/ros/fusion/include -isystem /opt/ros/foxy/include -isystem /home/yc/ros/MMW/install/mmw_msgs_ros2/include    -O3 -DNDEBUG   -o CMakeFiles/fusion.dir/src/GridFusion.cpp.o -c /home/yc/ros/fusion/src/GridFusion.cpp",
   "file": "/home/yc/ros/fusion/src/GridFusion.cpp"
+},
+{
+  "directory": "/home/yc/ros/fusion/build",
+  "command": "clang++-12  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DDISABLE_LIBUSB_1_0 -DDISABLE_OPENNI -DDISABLE_OPENNI2 -DDISABLE_PCAP -DDISABLE_PNG -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/usr/include/pcl-1.10 -I/usr/include/eigen3 -I/home/yc/ros/fusion/include -isystem /opt/ros/foxy/include -isystem /home/yc/ros/MMW/install/mmw_msgs_ros2/include    -O3 -DNDEBUG   -o CMakeFiles/fusion.dir/src/GridNode.cpp.o -c /home/yc/ros/fusion/src/GridNode.cpp",
+  "file": "/home/yc/ros/fusion/src/GridNode.cpp"
 },
 {
   "directory": "/home/yc/ros/fusion/build",

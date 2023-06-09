@@ -57,22 +57,9 @@ include CMakeFiles/fusion.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fusion.dir/flags.make
 
-CMakeFiles/fusion.dir/src/FusionNode.cpp.o: CMakeFiles/fusion.dir/flags.make
-CMakeFiles/fusion.dir/src/FusionNode.cpp.o: ../src/FusionNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fusion.dir/src/FusionNode.cpp.o"
-	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/FusionNode.cpp.o -c /home/yc/ros/fusion/src/FusionNode.cpp
-
-CMakeFiles/fusion.dir/src/FusionNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/FusionNode.cpp.i"
-	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/FusionNode.cpp > CMakeFiles/fusion.dir/src/FusionNode.cpp.i
-
-CMakeFiles/fusion.dir/src/FusionNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/FusionNode.cpp.s"
-	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/FusionNode.cpp -o CMakeFiles/fusion.dir/src/FusionNode.cpp.s
-
 CMakeFiles/fusion.dir/src/GridFusion.cpp.o: CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/GridFusion.cpp.o: ../src/GridFusion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fusion.dir/src/GridFusion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fusion.dir/src/GridFusion.cpp.o"
 	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/GridFusion.cpp.o -c /home/yc/ros/fusion/src/GridFusion.cpp
 
 CMakeFiles/fusion.dir/src/GridFusion.cpp.i: cmake_force
@@ -82,6 +69,19 @@ CMakeFiles/fusion.dir/src/GridFusion.cpp.i: cmake_force
 CMakeFiles/fusion.dir/src/GridFusion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/GridFusion.cpp.s"
 	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/GridFusion.cpp -o CMakeFiles/fusion.dir/src/GridFusion.cpp.s
+
+CMakeFiles/fusion.dir/src/GridNode.cpp.o: CMakeFiles/fusion.dir/flags.make
+CMakeFiles/fusion.dir/src/GridNode.cpp.o: ../src/GridNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yc/ros/fusion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fusion.dir/src/GridNode.cpp.o"
+	clang++-12  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusion.dir/src/GridNode.cpp.o -c /home/yc/ros/fusion/src/GridNode.cpp
+
+CMakeFiles/fusion.dir/src/GridNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusion.dir/src/GridNode.cpp.i"
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yc/ros/fusion/src/GridNode.cpp > CMakeFiles/fusion.dir/src/GridNode.cpp.i
+
+CMakeFiles/fusion.dir/src/GridNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusion.dir/src/GridNode.cpp.s"
+	clang++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yc/ros/fusion/src/GridNode.cpp -o CMakeFiles/fusion.dir/src/GridNode.cpp.s
 
 CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o: CMakeFiles/fusion.dir/flags.make
 CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o: ../src/HistoryHandle.cpp
@@ -137,8 +137,8 @@ CMakeFiles/fusion.dir/src/PointHandle.cpp.s: cmake_force
 
 # Object files for target fusion
 fusion_OBJECTS = \
-"CMakeFiles/fusion.dir/src/FusionNode.cpp.o" \
 "CMakeFiles/fusion.dir/src/GridFusion.cpp.o" \
+"CMakeFiles/fusion.dir/src/GridNode.cpp.o" \
 "CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o" \
 "CMakeFiles/fusion.dir/src/Main.cpp.o" \
 "CMakeFiles/fusion.dir/src/MmwHandle.cpp.o" \
@@ -147,8 +147,8 @@ fusion_OBJECTS = \
 # External object files for target fusion
 fusion_EXTERNAL_OBJECTS =
 
-fusion: CMakeFiles/fusion.dir/src/FusionNode.cpp.o
 fusion: CMakeFiles/fusion.dir/src/GridFusion.cpp.o
+fusion: CMakeFiles/fusion.dir/src/GridNode.cpp.o
 fusion: CMakeFiles/fusion.dir/src/HistoryHandle.cpp.o
 fusion: CMakeFiles/fusion.dir/src/Main.cpp.o
 fusion: CMakeFiles/fusion.dir/src/MmwHandle.cpp.o
